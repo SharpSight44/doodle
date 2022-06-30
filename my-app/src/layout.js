@@ -1,10 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
+import { AboutBreeder } from "./aboutBreeder";
 import { AboutDog } from "./aboutDog";
 import injectContext from "./appContext";
+import { ContactUs } from "./contactUs";
 import { Footer } from "./footer";
 import { Main } from "./main";
 import { Navbar } from "./navbar";
+import { Puppies } from "./puppies";
 import ScrollToTop from "./scrollToTop";
 import { Socials } from "./social";
 
@@ -27,6 +30,9 @@ return(
 
         <Route exact path="/socials" element={<Socials/>}/>
         <Route exact path="/goldendoodle" element={<AboutDog/>}/>
+        <Route exact path="/puppies" element={<Puppies/>}/>
+        <Route exact path="/breeder" element={<AboutBreeder/>}/>
+        <Route exact path="/contact" element={<ContactUs/>}/>
             
 
 
