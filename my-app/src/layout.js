@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
+import { AboutDog } from "./aboutDog";
 import injectContext from "./appContext";
 import { Footer } from "./footer";
 import { Main } from "./main";
@@ -25,6 +26,7 @@ return(
         <Route exact path="/" element={<Main/>}/>
 
         <Route exact path="/socials" element={<Socials/>}/>
+        <Route exact path="/goldendoodle" element={<AboutDog/>}/>
             
 
 

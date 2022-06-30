@@ -25,7 +25,7 @@ return (
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Breeder</a></li>
-            <li><a class="dropdown-item" href="#">Goldendoodles</a></li>
+            <li><Link to="/goldendoodle"><a class="dropdown-item" >Goldendoodles</a> </Link></li>
           </ul>
         </li>
         <li class="nav-item">
