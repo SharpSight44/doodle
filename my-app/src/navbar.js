@@ -28,8 +28,14 @@ return (
             <li><Link to="/goldendoodle"><a class="dropdown-item" >Goldendoodles</a> </Link></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <Link to="/puppies"><a class="nav-link" href="#">Puppies</a></Link>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Puppies
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <li> <Link to="/purchase"><a class="nav-link" href="#">Purchase</a></Link></li>
+         <li> <Link to="/litters"><a class="nav-link" href="#">Litters</a></Link></li>
+         </ul>
         </li>
         <li class="nav-item">
          <Link to="/socials"><a class="nav-link" >Social Media</a></Link> 

@@ -30,7 +30,7 @@ return(
 
         <Route exact path="/socials" element={<Socials/>}/>
         <Route exact path="/goldendoodle" element={<AboutDog/>}/>
-        <Route exact path="/puppies" element={<Puppies/>}/>
+        <Route exact path="/purchase" element={<Puppies/>}/>
         <Route exact path="/breeder" element={<AboutBreeder/>}/>
         <Route exact path="/contact" element={<ContactUs/>}/>
             
